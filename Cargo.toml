@@ -1,0 +1,15 @@
+[package]
+name = "fullstack-workshop"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = [
+    "api/lib",
+    "api/shuttle",
+    "shared"
+]
+resolver = "2"
+
+
+[dependencies]
