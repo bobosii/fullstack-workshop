@@ -277,6 +277,7 @@ dependencies = [
  "shuttle-shared-db",
  "sqlx",
  "tokio",
+ "tracing",
 ]
 
 [[package]]
@@ -865,6 +866,9 @@ dependencies = [
 [[package]]
 name = "fullstack-workshop"
 version = "0.1.0"
+dependencies = [
+ "tracing",
+]
 
 [[package]]
 name = "futures-channel"
