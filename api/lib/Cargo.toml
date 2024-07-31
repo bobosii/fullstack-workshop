@@ -8,6 +8,6 @@ actix-rt = "2.10.0"
 actix-web = "4.8.0"
 sqlx = "0.7"
 tracing = "0.1.40"
-shared = { path = "../../shared" }
+shared = { path = "../../shared", features = ["backend"] }
 uuid = { version = "1.10.0", features = ["js", "serde", "v4"] }
 async-trait = "0.1.81"
